@@ -1,0 +1,19 @@
+[
+  {"term": "Resistor", "definition": "A component that resists the flow of electric current, used to control voltage and current in a circuit."},
+  {"term": "Capacitor", "definition": "A device that stores electrical energy in an electric field, used to smooth power supply fluctuations."},
+  {"term": "Microcontroller", "definition": "A compact integrated circuit designed to govern a specific operation in an embedded system."},
+  {"term": "Transistor", "definition": "A semiconductor device used to amplify or switch electronic signals and electrical power."},
+  {"term": "Diode", "definition": "A component that allows current to flow in one direction only, used for rectification and protection."},
+  {"term": "Breadboard", "definition": "A construction base for prototyping electronics, allowing components to be easily inserted and removed."},
+  {"term": "PCB (Printed Circuit Board)", "definition": "A board used to mechanically support and electrically connect electronic components using conductive tracks."},
+  {"term": "Ohm's Law", "definition": "A fundamental law stating that V = I × R, relating voltage (V), current (I), and resistance (R)."},
+  {"term": "LED (Light Emitting Diode)", "definition": "A diode that emits light when current flows through it, used for indicators and displays."},
+  {"term": "Sensor", "definition": "A device that detects and responds to physical input from the environment, such as light, heat, or motion."},
+  {"term": "Actuator", "definition": "A device that converts electrical energy into physical motion, such as motors or relays."},
+  {"term": "Potentiometer", "definition": "A variable resistor used to adjust voltage and control devices like volume knobs."},
+  {"term": "Jumper Wire", "definition": "A short wire used to make connections between points on a breadboard or PCB."},
+  {"term": "IC (Integrated Circuit)", "definition": "A set of electronic circuits on a small chip, used to perform a specific function in devices."},
+  {"term": "PWM (Pulse Width Modulation)", "definition": "A technique for getting analog results with digital means, used to control motors, LEDs, and more."},
+  {"term": "UART (Universal Asynchronous Receiver/Transmitter)", "definition": "A hardware communication protocol for asynchronous serial communication between devices."},
+  {"term": "Pull-up Resistor", "definition": "A resistor used to ensure a wire is pulled to a high logical level in the absence of an input signal."}
+] 

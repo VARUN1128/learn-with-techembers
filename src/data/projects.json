@@ -1,0 +1,164 @@
+[
+  {
+    "id": "smart-irrigation",
+    "title": "Smart Irrigation System",
+    "description": "Automate your garden watering using soil moisture sensors and Arduino.",
+    "difficulty": "Intermediate",
+    "platform": "Arduino",
+    "components": ["Arduino Uno", "Soil Moisture Sensor", "Relay Module", "Water Pump"],
+    "steps": [
+      "Connect the soil moisture sensor to Arduino.",
+      "Write code to read sensor values.",
+      "Control the relay to turn the pump on/off."
+    ],
+    "videoLinks": [
+      "https://www.youtube.com/watch?v=def456"
+    ],
+    "githubLink": "https://github.com/example/smart-irrigation",
+    "simulationLink": "https://wokwi.com/projects/123456"
+  },
+  {
+    "id": "weather-station",
+    "title": "Weather Station",
+    "description": "Build a weather monitoring system using Arduino and various sensors.",
+    "difficulty": "Beginner",
+    "platform": "Arduino",
+    "components": ["Arduino Uno", "DHT11", "BMP180", "LCD Display"],
+    "steps": [
+      "Connect sensors to Arduino.",
+      "Display temperature and humidity on LCD.",
+      "Log data to serial monitor."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=abc789"],
+    "githubLink": "https://github.com/example/weather-station",
+    "simulationLink": "https://wokwi.com/projects/654321"
+  },
+  {
+    "id": "iot-plant-monitor",
+    "title": "IoT Plant Monitor",
+    "description": "Monitor your plants' health using sensors and cloud connectivity.",
+    "difficulty": "Advanced",
+    "platform": "ESP32",
+    "components": ["ESP32", "Soil Moisture Sensor", "Light Sensor", "OLED Display"],
+    "steps": [
+      "Connect sensors to ESP32.",
+      "Send data to cloud dashboard.",
+      "Display status on OLED."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=plantIoT"],
+    "githubLink": "https://github.com/example/iot-plant-monitor",
+    "simulationLink": "https://wokwi.com/projects/plantiot"
+  },
+  {
+    "id": "home-automation",
+    "title": "Home Automation with Voice Control",
+    "description": "Control home appliances using voice commands and a Raspberry Pi.",
+    "difficulty": "Intermediate",
+    "platform": "Raspberry Pi",
+    "components": ["Raspberry Pi", "Relay Module", "Microphone", "Smart Plug"],
+    "steps": [
+      "Set up voice recognition on Raspberry Pi.",
+      "Connect relay to appliances.",
+      "Control appliances with voice commands."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=voiceHome"],
+    "githubLink": "https://github.com/example/home-automation",
+    "simulationLink": "https://wokwi.com/projects/homeauto"
+  },
+  {
+    "id": "line-follower-robot",
+    "title": "Line Follower Robot",
+    "description": "Build a robot that follows a line using IR sensors and Arduino.",
+    "difficulty": "Beginner",
+    "platform": "Arduino",
+    "components": ["Arduino Uno", "IR Sensors", "Motor Driver", "Chassis"],
+    "steps": [
+      "Assemble robot chassis and mount sensors.",
+      "Write code to follow the line.",
+      "Test and calibrate the robot."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=lineFollow"],
+    "githubLink": "https://github.com/example/line-follower",
+    "simulationLink": "https://wokwi.com/projects/linefollower"
+  },
+  {
+    "id": "bluetooth-car",
+    "title": "Bluetooth Controlled Car",
+    "description": "Control a car using Bluetooth and a smartphone app.",
+    "difficulty": "Intermediate",
+    "platform": "Arduino",
+    "components": ["Arduino Uno", "Bluetooth Module", "Motor Driver", "Chassis"],
+    "steps": [
+      "Connect Bluetooth module to Arduino.",
+      "Pair with smartphone app.",
+      "Control car movement via app."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=btCar"],
+    "githubLink": "https://github.com/example/bluetooth-car",
+    "simulationLink": "https://wokwi.com/projects/bluetoothcar"
+  },
+  {
+    "id": "security-alarm",
+    "title": "Security Alarm System",
+    "description": "Create a security alarm using PIR sensor and buzzer.",
+    "difficulty": "Beginner",
+    "platform": "Arduino",
+    "components": ["Arduino Uno", "PIR Sensor", "Buzzer", "LED"],
+    "steps": [
+      "Connect PIR sensor and buzzer to Arduino.",
+      "Write code to trigger alarm on motion.",
+      "Test the system."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=alarmSys"],
+    "githubLink": "https://github.com/example/security-alarm",
+    "simulationLink": "https://wokwi.com/projects/securityalarm"
+  },
+  {
+    "id": "temperature-logger",
+    "title": "Temperature Data Logger",
+    "description": "Log temperature data to an SD card using Arduino.",
+    "difficulty": "Intermediate",
+    "platform": "Arduino",
+    "components": ["Arduino Uno", "SD Card Module", "Temperature Sensor", "RTC Module"],
+    "steps": [
+      "Connect SD card and sensors to Arduino.",
+      "Write code to log data with timestamps.",
+      "Review data on SD card."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=tempLogger"],
+    "githubLink": "https://github.com/example/temperature-logger",
+    "simulationLink": "https://wokwi.com/projects/templogger"
+  },
+  {
+    "id": "wifi-door-lock",
+    "title": "WiFi Door Lock",
+    "description": "Control a door lock remotely using ESP32 and WiFi.",
+    "difficulty": "Advanced",
+    "platform": "ESP32",
+    "components": ["ESP32", "Servo Motor", "WiFi Module", "Keypad"],
+    "steps": [
+      "Connect servo and keypad to ESP32.",
+      "Write code for WiFi control.",
+      "Test remote locking/unlocking."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=wifiLock"],
+    "githubLink": "https://github.com/example/wifi-door-lock",
+    "simulationLink": "https://wokwi.com/projects/wifidoorlock"
+  },
+  {
+    "id": "smart-light",
+    "title": "Smart Light Automation",
+    "description": "Automate lighting based on ambient light and motion.",
+    "difficulty": "Beginner",
+    "platform": "Arduino",
+    "components": ["Arduino Uno", "LDR", "Relay Module", "PIR Sensor"],
+    "steps": [
+      "Connect LDR and PIR sensor to Arduino.",
+      "Write code to control relay based on sensor input.",
+      "Test the smart light system."
+    ],
+    "videoLinks": ["https://www.youtube.com/watch?v=smartLight"],
+    "githubLink": "https://github.com/example/smart-light",
+    "simulationLink": "https://wokwi.com/projects/smartlight"
+  }
+] 

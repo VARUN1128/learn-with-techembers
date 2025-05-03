@@ -1,0 +1,17 @@
+[
+  {
+    "id": "dht11",
+    "name": "DHT11 Temperature & Humidity Sensor",
+    "description": "A basic, low-cost digital temperature and humidity sensor.",
+    "datasheetUrl": "https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT11.pdf",
+    "codeExamples": [
+      {
+        "language": "Arduino",
+        "code": "// Example code here"
+      }
+    ],
+    "videoLinks": [
+      "https://www.youtube.com/watch?v=ghi789"
+    ]
+  }
+] 

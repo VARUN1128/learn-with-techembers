@@ -1,0 +1,167 @@
+[
+  {
+    "id": "arduino-beginner",
+    "title": "Arduino for Beginners",
+    "description": "Start your journey with Arduino, from basics to building your first project.",
+    "topics": [
+      {"title": "Introduction", "description": "Learn about the Arduino platform, its history, and why it's so popular for electronics beginners.", "duration": "30 minutes", "content": "In this lesson, you'll discover what Arduino is, why it was created, and how it has revolutionized DIY electronics. You'll get an overview of the different Arduino boards, the open-source nature of the platform, and the global community that supports it. By the end, you'll understand why Arduino is the go-to choice for hobbyists and educators alike.", "videoLinks": ["https://www.youtube.com/watch?v=abc123"]},
+      {"title": "Blink LED", "description": "Create your first Arduino project: blinking an LED.", "duration": "20 minutes", "content": "This classic first project introduces you to the basics of digital output. You'll learn how to connect an LED to your Arduino board, write a simple program to turn it on and off, and understand the concept of pin numbering and timing. This hands-on activity builds your confidence and sets the stage for more complex projects.", "videoLinks": ["https://www.youtube.com/watch?v=def456"]},
+      {"title": "Sensors", "description": "Read data from sensors.", "duration": "40 minutes", "content": "Sensors are the eyes and ears of your Arduino projects. In this lesson, you'll explore different types of sensors (analog and digital), learn how to wire them up, and write code to read their values. You'll also see how sensor data can be used to make decisions in your programs, opening up endless possibilities for interactive projects.", "videoLinks": ["https://www.youtube.com/watch?v=ghi789"]},
+      {"title": "Serial Communication", "description": "Communicate with your computer.", "duration": "30 minutes", "content": "Serial communication allows your Arduino to talk to your computer or other devices. You'll learn how to use the Serial Monitor in the Arduino IDE, send and receive data, and debug your projects more effectively. This skill is essential for troubleshooting and for projects that require data logging or user interaction.", "videoLinks": ["https://www.youtube.com/watch?v=jkl012"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Arduino Tutorial for Beginners", "url": "https://www.youtube.com/watch?v=abc123"},
+      {"type": "article", "title": "Getting Started with Arduino", "url": "https://www.arduino.cc/en/Guide/Introduction"}
+    ]
+  },
+  {
+    "id": "raspberry-pi-intro",
+    "title": "Raspberry Pi Introduction",
+    "description": "Learn the basics of Raspberry Pi, setup, and first projects.",
+    "topics": [
+      {"title": "Getting Started", "description": "Set up your Raspberry Pi for the first time.", "duration": "30 minutes", "content": "This lesson walks you through unboxing your Raspberry Pi, installing the operating system, and connecting essential peripherals like a keyboard, mouse, and monitor. You'll also learn how to power up your Pi and navigate the desktop environment, preparing you for hands-on projects.", "videoLinks": ["https://www.youtube.com/watch?v=piStart"]},
+      {"title": "GPIO Basics", "description": "Control hardware with GPIO pins.", "duration": "40 minutes", "content": "GPIO (General Purpose Input/Output) pins let your Raspberry Pi interact with the physical world. You'll learn how to safely connect LEDs, buttons, and sensors, and write simple Python scripts to control them. This foundational skill is key to building interactive hardware projects.", "videoLinks": ["https://www.youtube.com/watch?v=piGPIO"]},
+      {"title": "Python Programming", "description": "Write your first Python script on the Pi.", "duration": "30 minutes", "content": "Python is the primary programming language for Raspberry Pi. In this lesson, you'll write your first Python script, learn about variables, loops, and functions, and see how Python can control hardware. This knowledge will empower you to automate tasks and build creative projects.", "videoLinks": ["https://www.youtube.com/watch?v=piPython"]},
+      {"title": "Networking", "description": "Connect your Pi to the internet.", "duration": "20 minutes", "content": "Learn how to connect your Raspberry Pi to WiFi or Ethernet, configure network settings, and troubleshoot common connectivity issues. You'll also discover how to access your Pi remotely, opening up new possibilities for IoT and server projects.", "videoLinks": ["https://www.youtube.com/watch?v=piNet"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Raspberry Pi Setup", "url": "https://www.youtube.com/watch?v=piStart"},
+      {"type": "article", "title": "Official Pi Guide", "url": "https://www.raspberrypi.org/documentation/"}
+    ]
+  },
+  {
+    "id": "iot-basics",
+    "title": "IoT Basics",
+    "description": "Understand the fundamentals of the Internet of Things.",
+    "topics": [
+      {"title": "What is IoT?", "description": "Intro to IoT concepts and applications.", "duration": "25 minutes", "content": "The Internet of Things (IoT) is about connecting everyday objects to the internet. In this lesson, you'll learn what makes a device 'smart', explore real-world IoT applications, and understand the benefits and challenges of this rapidly growing field.", "videoLinks": ["https://www.youtube.com/watch?v=iotIntro"]},
+      {"title": "IoT Protocols", "description": "Learn about MQTT, HTTP, and other communication protocols.", "duration": "35 minutes", "content": "Communication is at the heart of IoT. You'll discover how devices talk to each other using protocols like MQTT and HTTP, and why choosing the right protocol is important for reliability and security. You'll also see practical examples of sending data between devices.", "videoLinks": ["https://www.youtube.com/watch?v=iotProtocols"]},
+      {"title": "Cloud Integration", "description": "Send data to the cloud and visualize it.", "duration": "30 minutes", "content": "Cloud platforms allow you to store, analyze, and visualize IoT data from anywhere. This lesson covers how to connect your devices to popular cloud services, set up dashboards, and use cloud-based tools to monitor your projects in real time.", "videoLinks": ["https://www.youtube.com/watch?v=iotCloud"]},
+      {"title": "Security", "description": "Keep your IoT devices and data safe.", "duration": "20 minutes", "content": "Security is a major concern in IoT. You'll learn about common vulnerabilities, best practices for securing your devices and networks, and how to protect user data. This knowledge is essential for building trustworthy IoT solutions.", "videoLinks": ["https://www.youtube.com/watch?v=iotSecurity"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "IoT Explained", "url": "https://www.youtube.com/watch?v=iotIntro"},
+      {"type": "article", "title": "IoT Security Guide", "url": "https://www.iotforall.com/iot-security-guide"}
+    ]
+  },
+  {
+    "id": "esp32-advanced",
+    "title": "ESP32 Advanced Projects",
+    "description": "Take your ESP32 skills to the next level with advanced projects.",
+    "topics": [
+      {"title": "WiFi Projects", "description": "Connect ESP32 to WiFi and build connected devices.", "duration": "30 minutes", "content": "The ESP32 is a powerful microcontroller with built-in WiFi. In this lesson, you'll learn how to connect your ESP32 to a wireless network, troubleshoot connection issues, and use WiFi to send and receive data. This is the foundation for building smart, connected devices.", "videoLinks": ["https://www.youtube.com/watch?v=esp32wifi"]},
+      {"title": "Bluetooth Projects", "description": "Use Bluetooth on ESP32 for wireless communication.", "duration": "30 minutes", "content": "Bluetooth allows your ESP32 to communicate with smartphones and other devices. You'll learn how to set up Bluetooth Classic and BLE, pair devices, and exchange data wirelessly. This opens up possibilities for remote control and sensor networks.", "videoLinks": ["https://www.youtube.com/watch?v=esp32bt"]},
+      {"title": "Web Servers", "description": "Host a web server on ESP32 to control devices remotely.", "duration": "40 minutes", "content": "Hosting a web server on your ESP32 lets you control hardware from any browser. You'll build a simple web interface, learn about HTTP requests, and see how to update device status in real time. This is a key skill for IoT and home automation projects.", "videoLinks": ["https://www.youtube.com/watch?v=esp32web"]},
+      {"title": "OTA Updates", "description": "Update ESP32 firmware over the air.", "duration": "25 minutes", "content": "OTA (Over-the-Air) updates let you upgrade your ESP32's firmware without physical access. You'll learn how to set up OTA, manage firmware versions, and ensure secure updates. This is essential for maintaining and scaling IoT deployments.", "videoLinks": ["https://www.youtube.com/watch?v=esp32ota"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "ESP32 WiFi Tutorial", "url": "https://www.youtube.com/watch?v=esp32wifi"},
+      {"type": "article", "title": "ESP32 Docs", "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/"}
+    ]
+  },
+  {
+    "id": "robotics-foundations",
+    "title": "Robotics Foundations",
+    "description": "Learn the basics of robotics, sensors, and actuators.",
+    "topics": [
+      {"title": "Robot Types", "description": "Different types of robots and their uses.", "duration": "20 minutes", "content": "Robots come in many shapes and sizes, from industrial arms to mobile rovers. This lesson introduces you to the main categories of robots, their typical applications, and the key components that make them work.", "videoLinks": ["https://www.youtube.com/watch?v=robotTypes"]},
+      {"title": "Sensors in Robotics", "description": "How robots sense the world around them.", "duration": "30 minutes", "content": "Sensors are essential for robots to interact with their environment. You'll learn about common sensors (ultrasonic, IR, touch, etc.), how they work, and how to integrate them into robotic systems for navigation and obstacle avoidance.", "videoLinks": ["https://www.youtube.com/watch?v=robotSensors"]},
+      {"title": "Actuators", "description": "Motors and movement in robotics.", "duration": "25 minutes", "content": "Actuators are the muscles of a robot. This lesson covers different types of motors (DC, servo, stepper), how to control them, and how to choose the right actuator for your project. You'll also learn about power requirements and safety.", "videoLinks": ["https://www.youtube.com/watch?v=robotActuators"]},
+      {"title": "Basic Robot Code", "description": "Programming your first robot.", "duration": "35 minutes", "content": "Programming brings robots to life. You'll write simple code to control movement, respond to sensor input, and perform basic tasks. This lesson introduces you to the logic and structure of robot programming.", "videoLinks": ["https://www.youtube.com/watch?v=robotCode"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Robotics 101", "url": "https://www.youtube.com/watch?v=robotTypes"},
+      {"type": "article", "title": "Robotics Basics", "url": "https://www.robotics.org/blog-article.cfm/Robotics-Basics/"}
+    ]
+  },
+  {
+    "id": "embedded-c-basics",
+    "title": "Embedded C Programming Basics",
+    "description": "Master the basics of C programming for embedded systems.",
+    "topics": [
+      {"title": "C Syntax", "description": "Learn the syntax and structure of C programs.", "duration": "30 minutes", "content": "C is a powerful language for embedded systems. This lesson covers variables, data types, operators, and control structures. You'll write simple programs and understand how C code is structured for microcontrollers.", "videoLinks": ["https://www.youtube.com/watch?v=cSyntax"]},
+      {"title": "Microcontroller I/O", "description": "Control input and output pins in C.", "duration": "35 minutes", "content": "Microcontrollers interact with the world through I/O pins. You'll learn how to configure pins as input or output, read sensor values, and control actuators using C code. This is a core skill for embedded development.", "videoLinks": ["https://www.youtube.com/watch?v=cIO"]},
+      {"title": "Interrupts", "description": "Use interrupts for responsive programs.", "duration": "25 minutes", "content": "Interrupts allow your microcontroller to respond quickly to events. This lesson explains how interrupts work, how to set them up in C, and common use cases like button presses and sensor triggers.", "videoLinks": ["https://www.youtube.com/watch?v=cInterrupts"]},
+      {"title": "Timers", "description": "Timers and delays in embedded C.", "duration": "20 minutes", "content": "Timers are used for precise timing and delays. You'll learn how to configure timers, create delays, and use timer interrupts for periodic tasks in your embedded projects.", "videoLinks": ["https://www.youtube.com/watch?v=cTimers"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Embedded C Tutorial", "url": "https://www.youtube.com/watch?v=cSyntax"},
+      {"type": "article", "title": "Embedded C Guide", "url": "https://www.embedded.com/a-beginners-guide-to-embedded-c-programming/"}
+    ]
+  },
+  {
+    "id": "pcb-design-intro",
+    "title": "PCB Design Introduction",
+    "description": "Learn how to design your own printed circuit boards.",
+    "topics": [
+      {"title": "Schematic Capture", "description": "Draw circuit schematics using EDA tools.", "duration": "30 minutes", "content": "Schematic capture is the first step in PCB design. You'll learn how to use electronic design automation (EDA) software to draw circuit diagrams, select components, and prepare your design for layout.", "videoLinks": ["https://www.youtube.com/watch?v=pcbSchematic"]},
+      {"title": "PCB Layout", "description": "Place components and route traces on a PCB.", "duration": "40 minutes", "content": "PCB layout involves arranging components and drawing copper traces. This lesson covers best practices for layout, avoiding common mistakes, and ensuring your board is manufacturable.", "videoLinks": ["https://www.youtube.com/watch?v=pcbLayout"]},
+      {"title": "Manufacturing Files", "description": "Generate Gerber files for PCB manufacturing.", "duration": "20 minutes", "content": "Gerber files are the standard for PCB manufacturing. You'll learn how to export your design, check for errors, and prepare files for fabrication.", "videoLinks": ["https://www.youtube.com/watch?v=pcbGerber"]},
+      {"title": "Assembly", "description": "Assemble your PCB with soldering techniques.", "duration": "25 minutes", "content": "Once your PCB is fabricated, it's time to assemble it. This lesson covers soldering techniques, component placement, and testing your finished board.", "videoLinks": ["https://www.youtube.com/watch?v=pcbAssembly"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "PCB Design Tutorial", "url": "https://www.youtube.com/watch?v=pcbSchematic"},
+      {"type": "article", "title": "PCB Design Guide", "url": "https://www.allaboutcircuits.com/technical-articles/pcb-design-guide/"}
+    ]
+  },
+  {
+    "id": "power-electronics-basics",
+    "title": "Power Electronics Basics",
+    "description": "Understand the basics of power electronics and circuits.",
+    "topics": [
+      {"title": "Power Supplies", "description": "Types of power supplies and their uses.", "duration": "30 minutes", "content": "Power supplies provide the necessary voltage and current for electronic circuits. You'll learn about linear and switching power supplies, how to choose the right one, and safety considerations.", "videoLinks": ["https://www.youtube.com/watch?v=powerSupplies"]},
+      {"title": "Rectifiers", "description": "Convert AC to DC using rectifiers.", "duration": "25 minutes", "content": "Rectifiers are used to convert alternating current (AC) to direct current (DC). This lesson covers different types of rectifiers, their applications, and how to build simple rectifier circuits.", "videoLinks": ["https://www.youtube.com/watch?v=rectifiers"]},
+      {"title": "Voltage Regulators", "description": "Maintain constant voltage in circuits.", "duration": "20 minutes", "content": "Voltage regulators ensure your circuits receive a stable voltage. You'll learn about linear and switching regulators, how to use them, and how to troubleshoot voltage issues.", "videoLinks": ["https://www.youtube.com/watch?v=regulators"]},
+      {"title": "Inverters", "description": "Convert DC to AC using inverters.", "duration": "35 minutes", "content": "Inverters are used in power electronics to convert DC to AC. This lesson explains how inverters work, their applications, and how to design basic inverter circuits.", "videoLinks": ["https://www.youtube.com/watch?v=inverters"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Power Electronics Tutorial", "url": "https://www.youtube.com/watch?v=powerSupplies"},
+      {"type": "article", "title": "Power Electronics Guide", "url": "https://www.electronics-tutorials.ws/power/power_1.html"}
+    ]
+  },
+  {
+    "id": "sensor-fundamentals",
+    "title": "Sensor Fundamentals",
+    "description": "Explore different types of sensors and their applications.",
+    "topics": [
+      {"title": "Temperature Sensors", "description": "How temperature sensors work and where they're used.", "duration": "25 minutes", "content": "Temperature sensors are used in everything from thermostats to weather stations. You'll learn about thermistors, RTDs, and digital temperature sensors, how they work, and how to read their values in your projects.", "videoLinks": ["https://www.youtube.com/watch?v=tempSensors"]},
+      {"title": "Light Sensors", "description": "Detecting light levels with sensors.", "duration": "20 minutes", "content": "Light sensors like LDRs and photodiodes allow your projects to respond to ambient light. This lesson covers how these sensors work, how to connect them, and practical applications like automatic lighting.", "videoLinks": ["https://www.youtube.com/watch?v=lightSensors"]},
+      {"title": "Motion Sensors", "description": "Detecting movement using sensors.", "duration": "30 minutes", "content": "Motion sensors such as PIR and ultrasonic sensors are used for security and automation. You'll learn how to use these sensors to detect movement and trigger actions in your projects.", "videoLinks": ["https://www.youtube.com/watch?v=motionSensors"]},
+      {"title": "Gas Sensors", "description": "Detecting gases in the environment.", "duration": "30 minutes", "content": "Gas sensors like the MQ series can detect gases such as CO2, methane, and smoke. This lesson explains how these sensors work, how to calibrate them, and how to use them for safety and monitoring.", "videoLinks": ["https://www.youtube.com/watch?v=gasSensors"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Sensor Types", "url": "https://www.youtube.com/watch?v=tempSensors"},
+      {"type": "article", "title": "Sensor Guide", "url": "https://www.electronics-tutorials.ws/io/io_1.html"}
+    ]
+  },
+  {
+    "id": "analog-electronics",
+    "title": "Analog Electronics",
+    "description": "Learn about analog circuits, amplifiers, and filters.",
+    "topics": [
+      {"title": "Op-Amps", "description": "Operational amplifiers and their uses.", "duration": "30 minutes", "content": "Operational amplifiers (op-amps) are versatile building blocks for analog circuits. You'll learn about different op-amp configurations, their applications in amplification, filtering, and signal conditioning, and how to design simple op-amp circuits.", "videoLinks": ["https://www.youtube.com/watch?v=opamps"]},
+      {"title": "Filters", "description": "Low-pass, high-pass, and other filters.", "duration": "25 minutes", "content": "Filters are used to allow or block certain frequencies in a signal. This lesson covers RC, LC, and active filters, their design, and practical uses in audio and communication systems.", "videoLinks": ["https://www.youtube.com/watch?v=filters"]},
+      {"title": "Oscillators", "description": "Generating waveforms with oscillators.", "duration": "30 minutes", "content": "Oscillators generate periodic signals like sine, square, and triangle waves. You'll learn about different types of oscillators, their circuit design, and how they're used in clocks, radios, and signal generators.", "videoLinks": ["https://www.youtube.com/watch?v=oscillators"]},
+      {"title": "Analog to Digital", "description": "Converting analog signals to digital.", "duration": "20 minutes", "content": "Analog-to-digital converters (ADCs) allow microcontrollers to read analog signals. This lesson explains how ADCs work, their resolution and accuracy, and how to use them in your projects.", "videoLinks": ["https://www.youtube.com/watch?v=adc"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Analog Circuits", "url": "https://www.youtube.com/watch?v=opamps"},
+      {"type": "article", "title": "Analog Electronics Guide", "url": "https://www.allaboutcircuits.com/textbook/analog/"}
+    ]
+  },
+  {
+    "id": "digital-electronics",
+    "title": "Digital Electronics",
+    "description": "Understand digital logic, gates, and microcontrollers.",
+    "topics": [
+      {"title": "Logic Gates", "description": "AND, OR, NOT, and other logic gates.", "duration": "20 minutes", "content": "Logic gates are the foundation of digital electronics. You'll learn how AND, OR, NOT, NAND, NOR, XOR, and XNOR gates work, their truth tables, and how to combine them to create complex logic circuits.", "videoLinks": ["https://www.youtube.com/watch?v=logicGates"]},
+      {"title": "Flip-Flops", "description": "Memory elements in digital circuits.", "duration": "25 minutes", "content": "Flip-flops are basic memory elements used in digital systems. This lesson covers SR, JK, and D flip-flops, their operation, and how they're used to store and transfer data in sequential circuits.", "videoLinks": ["https://www.youtube.com/watch?v=flipflops"]},
+      {"title": "Counters", "description": "Counting circuits and their applications.", "duration": "30 minutes", "content": "Counters are used to count events, divide frequencies, and create time delays. You'll learn about asynchronous and synchronous counters, their design, and practical uses in digital clocks and timers.", "videoLinks": ["https://www.youtube.com/watch?v=counters"]},
+      {"title": "Microcontrollers", "description": "Introduction to microcontrollers and their uses.", "duration": "35 minutes", "content": "Microcontrollers are small computers on a chip, used in countless embedded systems. This lesson introduces you to microcontroller architecture, programming basics, and real-world applications in automation and control.", "videoLinks": ["https://www.youtube.com/watch?v=mcuIntro"]}
+    ],
+    "resources": [
+      {"type": "youtube", "title": "Digital Logic", "url": "https://www.youtube.com/watch?v=logicGates"},
+      {"type": "article", "title": "Digital Electronics Guide", "url": "https://www.electronics-tutorials.ws/logic/logic_1.html"}
+    ]
+  }
+] 
