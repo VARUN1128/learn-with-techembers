@@ -113,9 +113,9 @@ const Home: React.FC = () => {
                   <li><b>Why learn hardware?</b> Build, upgrade, and troubleshoot computers; prepare for careers in IT, engineering, and tech support.</li>
                 </ul>
                 <div className="flex flex-col sm:flex-row gap-4 mt-4">
-                  <a href="#" className="px-5 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">Browse Hardware Courses</a>
-                  <a href="#" className="px-5 py-2 bg-gray-200 text-gray-800 rounded-lg font-semibold hover:bg-gray-300 transition-colors">Explore Hardware Jobs</a>
-                  <a href="#" className="px-5 py-2 bg-purple-100 text-purple-800 rounded-lg font-semibold hover:bg-purple-200 transition-colors">Hardware FAQ</a>
+                  <button className="px-5 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">Browse Hardware Courses</button>
+                  <button className="px-5 py-2 bg-gray-200 text-gray-800 rounded-lg font-semibold hover:bg-gray-300 transition-colors">Explore Hardware Jobs</button>
+                  <button className="px-5 py-2 bg-purple-100 text-purple-800 rounded-lg font-semibold hover:bg-purple-200 transition-colors">Hardware FAQ</button>
                 </div>
               </div>
               <div className="flex-1 flex justify-center md:justify-end">
