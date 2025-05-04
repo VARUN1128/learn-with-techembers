@@ -40,8 +40,8 @@ const Header: React.FC = () => {
       </div>
       {/* Mobile Nav Drawer */}
       {open && (
-        <div className="fixed inset-0 z-50 bg-black/40" onClick={() => setOpen(false)}>
-          <nav className="absolute left-0 top-0 w-64 h-full bg-white dark:bg-gray-900 shadow-lg p-6 flex flex-col gap-6 animate-slide-in">
+        <div className="fixed inset-0 z-50 bg-black/40 w-screen h-screen" onClick={() => setOpen(false)}>
+          <nav className="fixed left-0 top-0 w-64 h-screen bg-white dark:bg-gray-900 shadow-lg p-6 flex flex-col gap-6 animate-slide-in" onClick={e => e.stopPropagation()}>
             <button className="self-end mb-4" onClick={() => setOpen(false)} aria-label="Close menu">
               <svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
