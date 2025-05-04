@@ -1,4 +1,4 @@
-# HarduLearn
+# Learn Harware
 
 A self-learning platform for students interested in hardware, electronics, and projects. Built with React, TypeScript, and Tailwind CSS.
 
